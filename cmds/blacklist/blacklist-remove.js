@@ -39,7 +39,7 @@ module.exports = {
                 })
                 
             } else {
-                interaction.reply({ content: `\`❌\` Cet utilisateur n'est pas en blacklist !`, ephemeral: true })
+                interaction.reply({ content: `\`✅\` Cet utilisateur n'est pas en blacklist !`, ephemeral: true })
             }
         }
 
