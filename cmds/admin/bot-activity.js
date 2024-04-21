@@ -10,15 +10,6 @@ module.exports = {
         choices: [{
             name: "Streaming",
             value: "STREAMING"
-        }, {
-            name: "Listening",
-            value: "LISTENING"
-        }, {
-            name: "Watching",
-            value: "WATCHING"
-        }, {
-            name: "Competing",
-            value: "COMPETING"
         }]
     }, {
         name: "message",
@@ -48,7 +39,7 @@ module.exports = {
         const msg = interaction.options.getString("message");
 
         if (type2 !== "STREAMING") client.user.setActivity(msg, { type: type2 });
-        else client.user.setActivity(msg, { type: type2, url: "https://www.twitch.tv/#" });
+        else client.user.setActivity(msg, { type: 1, url: "https://www.twitch.tv/#" });
 
         interaction.followUp({
             embeds: [{

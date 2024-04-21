@@ -8,17 +8,7 @@ module.exports = {
         const
             embed = client.embed(), categories = [], fields = [], category = {
                 admin: "`🔰` Commandes Admin",
-                blacklist: "`🎎` Commandes Blacklist",
-                blrank: "`🧧` Commandes Blrank",
-                limitrole: "`📇` Commandes Limitrole",
-                voicemaster: "`🔊` Commandes Voice Master",
-                dog: "`🐕` Commandes Dog",
-                punish: "`⚖️` Commandes Punish",
-                antistats: "`📈` Commandes Stats",
-                watcher: "`🥽` Commandes watcher",
-                gestion: "`🎩` Commandes gestion",
-                giveaways: "`🎉` Commandes Giveaways",
-                logs: "`📰` Commandes Logs"
+                blacklist: "`🎎` Commandes Blacklist"
             };
 
         client.cmds.forEach(async (command) => {
